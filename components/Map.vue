@@ -43,12 +43,14 @@ export default {
 		console.log(airstrikes[3])
 		this.map = new mapboxgl.Map({
 			container: "myMap",
-			style: "mapbox://styles/mapbox/streets-v11",
+			// style: "mapbox://styles/mapbox/streets-v11",
+			style: "mapbox://styles/luke-wilson/ckryk3wlk0kns19kd1n3361hd",
+
 			center: {
 				lat: 34.1911,
 				lng: 41.0092,
 			},
-			zoom: 6,
+			zoom: 5.5,
 		})
 		this.map.on("load", () => {
 			this.addMarkers()
