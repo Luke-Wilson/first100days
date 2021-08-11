@@ -21,15 +21,23 @@ const desiredProperties = [
 ].map((ele) => sanitizeProperty(ele))
 
 function cleanObject(obj) {
-	const returnObj = Object.fromEntries(
+	const returnObj = {
+		type: "Feature",
+		geometry: {
+			type: "Point",
+			coordinates: [],
+		},
+		properties: {},
+	}
+
+	returnObj.properties = Object.fromEntries(
 		Object.entries(obj)
 			.map(([key, value]) => [sanitizeProperty(key), value])
 			.filter(([key, value]) => desiredProperties.includes(key))
 	)
 
-	const { lat, lng } = extrapolateLatLng(returnObj.latlng)
-	returnObj.lat = lat
-	returnObj.lng = lng
+	const { lat, lng } = extrapolateLatLng(returnObj.properties.latlng)
+	returnObj.geometry.coordinates = [parseFloat(lng), parseFloat(lat)]
 	return returnObj
 }
 
@@ -18543,4 +18551,8 @@ const rawData = [
 ]
 
 const cleanData = rawData.map((ele) => cleanObject(ele))
-fs.writeFileSync("./data/airstrikes.json", JSON.stringify(cleanData, null, 2))
+geoJsonObj = {
+	type: "FeatureCollection",
+	features: cleanData,
+}
+fs.writeFileSync("./data/airstrikes.json", JSON.stringify(geoJsonObj, null, 2))

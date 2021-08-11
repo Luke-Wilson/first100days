@@ -33,13 +33,5 @@
 		"prettier": "^2.3.2",
 		"sass": "^1.37.5",
 		"sass-loader": "^10.1.1"
-	},
-	"babel": {
-		"plugins": [
-			"@babel/plugin-proposal-private-property-in-object",
-			{
-				"loose": true
-			}
-		]
 	}
 }
