@@ -3,14 +3,19 @@
 </template>
 
 <script>
+import jQuery from "jquery"
 import mapboxgl from "mapbox-gl/dist/mapbox-gl.js"
 import airstrikes from "@/data/airstrikes.json"
 mapboxgl.accessToken = process.env.mapboxToken
 
+const $ = jQuery
 export default {
 	name: "Map",
 	data: () => ({
 		map: {},
+		currentIndex: 0,
+		currentPopup: null,
+		currentFeatures: [],
 	}),
 	mounted() {
 		this.map = new mapboxgl.Map({
@@ -66,15 +71,26 @@ export default {
 				filter: ["!", ["has", "point_count"]],
 				paint: {
 					"circle-color": "#c800ff",
-					"circle-radius": 5,
+					"circle-radius": 6,
 					"circle-stroke-width": 1,
 					"circle-stroke-color": "#fff",
 				},
 			})
+
+			$("body").on("click", ".btn-next", (e) => {
+				this.closePopup()
+				this.currentIndex++
+				this.renderPopup()
+			})
+			$("body").on("click", ".btn-prev", (e) => {
+				this.closePopup()
+				this.currentIndex--
+				this.renderPopup()
+			})
 		})
+
 		// inspect a cluster on click
 		this.map.on("click", "clusters", (e) => {
-			console.log({ e })
 			const features = this.map.queryRenderedFeatures(e.point, {
 				layers: ["clusters"],
 			})
@@ -89,53 +105,57 @@ export default {
 			})
 		})
 
-		// When a click event occurs on a feature in
-		// the unclustered-point layer, open a popup at
-		// the location of the feature, with
-		// description HTML from its properties.
+		// unclustered click handler
 		this.map.on("click", "unclustered-point", (e) => {
-			console.log(e.features)
-			this.renderPopup(e, true)
-		})
-
-		this.map.on("click", "clustered-point", (e) => {
-			console.log("clustered-point")
-			console.log(e)
+			this.currentIndex = 0
+			this.currentFeatures = e.features
+			this.renderPopup()
 		})
 	},
 	methods: {
-		renderPopup(e, isCluster) {
-			const feature = e.features[0]
-			const coordinates = feature.geometry.coordinates.slice()
+		closePopup() {
+			this.currentPopup?.remove()
+		},
+		renderPopup() {
+			const feature = this.currentFeatures[this.currentIndex]
+			const coordinates = feature?.geometry.coordinates.slice()
 
-			// Ensure that if the map is zoomed out such that
-			// multiple copies of the feature are visible, the
-			// popup appears over the copy being pointed to.
-			// while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-			// 	coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360
-			// }
-
-			new mapboxgl.Popup()
+			this.currentPopup = new mapboxgl.Popup({ maxWidth: "500px" })
 				.setLngLat(coordinates)
-				.setHTML(this.createPopupHTML(feature.properties, isCluster))
+				.setHTML(this.createPopupHTML(feature.properties))
 				.addTo(this.map)
 		},
-		createPopupHTML(strike, isCluster = false) {
+		createPopupHTML(strike) {
+			const weapon = JSON.parse(strike.platform).WEAPON
+
 			let returnVar = `
 				<h3>${strike.location}</h3>
-				<p>Country: ${strike.country}</p>
-				<p>Date range: ${strike.date}</p>
-				<p>Platform/Weapon: ${strike.platform.WEAPON}</p>
-				<p>Target: ${strike.target}</p>
-				<p>Purpose: ${strike.purpose}</p>
+				<p><strong>Country</strong>: ${strike.country}</p>
+				<p><strong>Date range</strong>: ${strike.date}</p>
+				<p><strong>Platform/Weapon</strong>: ${weapon}</p>
+				<p><strong>Target</strong>: ${strike.target}</p>
+				<p><strong>Purpose</strong>: ${strike.purpose}</p>
 			`
 			if (strike.youtube_clip.includes("youtube.com")) {
 				returnVar += `<p><a target="_blank" href="${strike.youtube_clip}">Video</a></p>`
 			}
 
-			// if (isCluster) {
-			// 	returnVar += "<button class='btn-next'>Next</button>"
-			// }
+			returnVar += `<p class="text-center">Strike ${this.currentIndex + 1} of ${this.currentFeatures.length}</p>`
+			returnVar += "<div class='popup-btn-wrapper'>"
+
+			if (this.currentIndex >= 1) {
+				returnVar += "<button class='btn btn-link btn-prev'>Prev</button>"
+			} else {
+				returnVar += "<button disabled class='btn btn-link btn-prev'>Prev</button>"
+			}
+
+			if (this.currentIndex < this.currentFeatures.length - 1) {
+				returnVar += "<button class='btn btn-link btn-next'>Next</button>"
+			} else {
+				returnVar += "<button disabled class='btn btn-link btn-next'>Next</button>"
+			}
+
+			returnVar += "</div>"
 
 			return returnVar
 		},
@@ -143,31 +163,29 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 #myMap {
 	height: 100vh;
 	width: 100%;
-}
+	.marker {
+		background-image: url("/static/mapbox-icon.png");
+		background-size: cover;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.mapboxgl-popup {
+		.mapboxgl-popup-content {
+			/* text-align: center; */
+			font-family: "Open Sans", sans-serif;
+			width: 500px;
+		}
 
-.marker {
-	background-image: url("/static/mapbox-icon.png");
-	background-size: cover;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	cursor: pointer;
-}
-
-.mapboxgl-popup {
-	max-width: 200px;
-}
-
-.mapboxgl-popup-content {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	background-color: red;
-	h3 {
-		color: purple !important;
+		.popup-btn-wrapper {
+			display: flex;
+			justify-content: center;
+		}
 	}
 }
 </style>
