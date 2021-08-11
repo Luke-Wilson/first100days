@@ -1,5 +1,8 @@
 <template>
-	<Map />
+	<div>
+		<Header />
+		<Map />
+	</div>
 </template>
 
 <script lang="ts">
@@ -7,7 +10,7 @@ import Vue from "vue"
 
 export default Vue.extend({
 	data: () => ({
-		title: "Strike from the Air: First 100 Days",
+		title: "Strike from the Air: First 100 days in the air campaign against ISIL",
 	}),
 	head() {
 		return {
@@ -17,7 +20,7 @@ export default Vue.extend({
 				{
 					hid: "description",
 					name: "description",
-					content: "My custom description",
+					content: "Strike from the Air: First 100 days in the air campaign against ISIL",
 				},
 			],
 			link: [
@@ -30,3 +33,9 @@ export default Vue.extend({
 	},
 })
 </script>
+
+<style lang="scss">
+body {
+	background-color: #000;
+}
+</style>

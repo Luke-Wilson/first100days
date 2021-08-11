@@ -36,7 +36,7 @@ export default {
 				type: "geojson",
 				data: airstrikes,
 				cluster: true,
-				clusterMaxZoom: 14, // Max zoom to cluster points on
+				clusterMaxZoom: 9, // Max zoom to cluster points on
 				clusterRadius: 50, // Radius of each cluster when clustering points (defaults to 50)
 			})
 
@@ -108,7 +108,7 @@ export default {
 		// unclustered click handler
 		this.map.on("click", "unclustered-point", (e) => {
 			this.currentIndex = 0
-			this.currentFeatures = e.features
+			this.currentFeatures = e.features.slice(0, e.features.length / 2)
 			this.renderPopup()
 		})
 	},
@@ -127,6 +127,7 @@ export default {
 		},
 		createPopupHTML(strike) {
 			const weapon = JSON.parse(strike.platform).WEAPON
+			const outcome = JSON.parse(strike.effect).OUTCOME
 
 			let returnVar = `
 				<h3>${strike.location}</h3>
@@ -135,6 +136,7 @@ export default {
 				<p><strong>Platform/Weapon</strong>: ${weapon}</p>
 				<p><strong>Target</strong>: ${strike.target}</p>
 				<p><strong>Purpose</strong>: ${strike.purpose}</p>
+				<p><strong>Effect:</strong>: ${outcome}</p>
 			`
 			if (strike.youtube_clip.includes("youtube.com")) {
 				returnVar += `<p><a target="_blank" href="${strike.youtube_clip}">Video</a></p>`
@@ -165,7 +167,7 @@ export default {
 
 <style lang="scss">
 #myMap {
-	height: 100vh;
+	height: calc(100vh - 100px);
 	width: 100%;
 	.marker {
 		background-image: url("/static/mapbox-icon.png");
@@ -180,6 +182,9 @@ export default {
 			/* text-align: center; */
 			font-family: "Open Sans", sans-serif;
 			width: 500px;
+			p {
+				margin-bottom: 0.5rem;
+			}
 		}
 
 		.popup-btn-wrapper {
