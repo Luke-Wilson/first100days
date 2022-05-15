@@ -136,8 +136,9 @@ export default {
 				<p><strong>Platform/Weapon</strong>: ${weapon}</p>
 				<p><strong>Target</strong>: ${strike.target}</p>
 				<p><strong>Purpose</strong>: ${strike.purpose}</p>
-				<p><strong>Effect:</strong>: ${outcome}</p>
+				<p><strong>Effect</strong>: ${outcome}</p>
 			`
+
 			if (strike.youtube_clip.includes("youtube.com")) {
 				returnVar += `<p><a target="_blank" href="${strike.youtube_clip}">Video</a></p>`
 			}

@@ -35,7 +35,6 @@ function cleanObject(obj) {
 			.map(([key, value]) => [sanitizeProperty(key), value])
 			.filter(([key, value]) => desiredProperties.includes(key))
 	)
-
 	const { lat, lng } = extrapolateLatLng(returnObj.properties.latlng)
 	returnObj.geometry.coordinates = [parseFloat(lng), parseFloat(lat)]
 	return returnObj
@@ -131,8 +130,7 @@ const rawData = [
 		TARGET: "A stationary ISIL convoy ",
 		PURPOSE: "In support of Kurdish forces defending Erbil against ISIL",
 		EFFECT: {
-			OUTCOME:
-				"Struck a stationary ISIL convoy of 7 x vehicles and 1 x mortar position, neutralizing the mortar and convoy",
+			OUTCOME: "Struck a stationary ISIL convoy of 7 x vehicles and 1 x mortar position, neutralizing the mortar and convoy",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -606,8 +604,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-Erbil-11-aug-14",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-Erbil-11-aug-14",
 	},
 	{
 		DATE: "11-Aug",
@@ -922,8 +919,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-12-u.s.-military-conducts-airstrike-against-isil-north-of-sinjar",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-12-u.s.-military-conducts-airstrike-against-isil-north-of-sinjar",
 	},
 	{
 		DATE: "13-Aug",
@@ -1193,8 +1189,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-15-u.s.-military-conducts-airstrikes-against-isil-near-sinjar",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-15-u.s.-military-conducts-airstrikes-against-isil-near-sinjar",
 	},
 	{
 		DATE: "16-Aug",
@@ -1239,8 +1234,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-near-Erbil-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-near-Erbil-the-mosul-dam",
 	},
 	{
 		DATE: "16-Aug",
@@ -1285,8 +1279,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-near-Erbil-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-near-Erbil-the-mosul-dam",
 	},
 	{
 		DATE: "16-Aug",
@@ -1331,8 +1324,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-near-Erbil-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-near-Erbil-the-mosul-dam",
 	},
 	{
 		DATE: "17-Aug",
@@ -1351,8 +1343,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Damaged or destroyed 10 x armed vehicles, 7 x Humvees, 2 x armored personnel carriers, 1 x checkpoint.",
 		},
@@ -1378,8 +1369,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-17-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-17-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "17-Aug",
@@ -1398,11 +1388,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 3 x armed vehicles, 1 x vehicle-mounted anti-aircraft artillery gun, 1 x checkpoint, 1 x IED emplacement.",
+			OUTCOME: "Destroyed 3 x armed vehicles, 1 x vehicle-mounted anti-aircraft artillery gun, 1 x checkpoint, 1 x IED emplacement.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -1426,8 +1414,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-17-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam2",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-17-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam2",
 	},
 	{
 		DATE: "18-Aug",
@@ -1446,8 +1433,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=M1FlcbDEslM&index=17&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME:
 				"Damaged or destroyed 9 x fighting positions; 1 x checkpoint;  6 x armed vehicles; 1 x light armored vehicle; 1 x ISIL vehicle-mounted anti-aircraft artillery gun, 1 x IED emplacement belt.",
@@ -1474,8 +1460,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-18-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-18-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "18-Aug",
@@ -1494,8 +1479,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=OQdjrotXZMU&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=16",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -1521,8 +1505,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-18-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-18-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "19-Aug",
@@ -1541,8 +1524,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "1 x  ISIL checkpoint",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Not successful in destroying ISIL checkpoint",
 		},
@@ -1587,8 +1569,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "1 x  ISIL checkpoint",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL checkpoint",
 		},
@@ -1633,8 +1614,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed or damaged 6 x  Humvees, 3x  IED emplacements, 1 x  mortar tube, 2 x armed trucks.",
 		},
@@ -1660,8 +1640,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-20-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-20-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "21-Aug",
@@ -1680,8 +1659,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed or damaged 3 x Humvees, 1 x vehicle, and multiple IED emplacements. ",
 		},
@@ -1707,8 +1685,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-21-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-21-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "22-Aug",
@@ -1753,8 +1730,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-22-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-22-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "23-Aug",
@@ -1773,8 +1749,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1x vehicle",
 		},
@@ -1800,8 +1775,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-22-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-22-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "24-Aug",
@@ -1820,8 +1794,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x humvee ",
 		},
@@ -1847,8 +1820,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug.-23-u.s.-military-conducts-airstrike-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug.-23-u.s.-military-conducts-airstrike-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "24-Aug",
@@ -1867,8 +1839,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Erbil",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x  armed vehicle",
 		},
@@ -1894,8 +1865,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug-24-us-military-conducts-airstrikes-against-isil-near-Erbil-and-mosul",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug-24-us-military-conducts-airstrikes-against-isil-near-Erbil-and-mosul",
 	},
 	{
 		DATE: "26-Aug",
@@ -1914,8 +1884,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Erbil",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x armed vehicles and damaged 1 x armed vehicle",
 		},
@@ -1960,8 +1929,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL Strongholds near Erbil",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -2006,8 +1974,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Erbil",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x  Humvee, 1 x supply truck, 3 x armored vehicles, severely damaged 1 x ISIL building.",
 		},
@@ -2033,8 +2000,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug-27-u.s.-military-conducts-airstrikes-against-isil-near-Erbil-and-mosul",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug-27-u.s.-military-conducts-airstrikes-against-isil-near-Erbil-and-mosul",
 	},
 	{
 		DATE: "27-Aug",
@@ -2053,8 +2019,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds nearMosul Dam",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -2080,8 +2045,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug-27-u.s.-military-conducts-airstrikes-against-isil-near-Erbil-and-mosul",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug-27-u.s.-military-conducts-airstrikes-against-isil-near-Erbil-and-mosul",
 	},
 	{
 		DATE: "28-Aug",
@@ -2100,11 +2064,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x Humvee, 1 x tank, 4 x armed vehicles, 1 x  ISIL construction vehicle and severely damaged 1 x ISIL checkpoint.",
+			OUTCOME: "Destroyed 1 x Humvee, 1 x tank, 4 x armed vehicles, 1 x  ISIL construction vehicle and severely damaged 1 x ISIL checkpoint.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -2128,8 +2090,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug-28-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug-28-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "29-Aug",
@@ -2148,8 +2109,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
 			OUTCOME: "Destroyed 4 x armed vehicles, severely damaged 1 x armed vehicle, and destroyed 3 x support vehicles.",
 		},
@@ -2175,8 +2135,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug-29-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug-29-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "30-Aug",
@@ -2195,11 +2154,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
+		PURPOSE: "To support humanitarian efforts,  to protect critical infrastructure, U.S. personnel and facilities, and support Iraqi security forces and Kurdish defense forces.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x armed vehicle, 1 x fighting position, 1 x ISIL weapons, and significantly damaged 1 x ISIL building.",
+			OUTCOME: "Destroyed 1 x armed vehicle, 1 x fighting position, 1 x ISIL weapons, and significantly damaged 1 x ISIL building.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -2223,8 +2180,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/aug-30-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/aug-30-u.s.-military-conducts-airstrikes-against-isil-near-mosul-dam",
 	},
 	{
 		DATE: "30-Aug",
@@ -2243,8 +2199,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Amirli: 34.7250° N, 44.5875° E ",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL bloackade near Amirli",
-		PURPOSE:
-			"At the request of the Government of Iraq, conducted airstrikes in support of an operation to deliver humanitarian assistance and protect civilians trapped in Amirli, Iraq.",
+		PURPOSE: "At the request of the Government of Iraq, conducted airstrikes in support of an operation to deliver humanitarian assistance and protect civilians trapped in Amirli, Iraq.",
 		EFFECT: {
 			OUTCOME: "Destroyed 3 x ISIL Humvees, 1 x ISIL armed vehicle, 1 x ISIL checkpoint and 1 x ISIL tank.",
 		},
@@ -2270,8 +2225,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-airdrops-humanitarian-aid-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/us-military-conducts-airstrikes-against-isil-airdrops-humanitarian-aid-iraq",
 	},
 	{
 		DATE: "31-Aug",
@@ -2317,8 +2271,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-amirli-and-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-amirli-and-mosul-dam",
 	},
 	{
 		DATE: "31-Aug",
@@ -2383,8 +2336,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
 			OUTCOME: "Destroyed or damaged 16 x ISIL armed vehicles",
 		},
@@ -2429,8 +2381,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL armed vehicles and 1 x ISIL observation post",
 		},
@@ -2456,8 +2407,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-4-u.s.-military-conducts-airstrikes-against-isil-in-support-of-mosul",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-4-u.s.-military-conducts-airstrikes-against-isil-in-support-of-mosul",
 	},
 	{
 		DATE: "3/09/2014 -4/09/2014",
@@ -2476,8 +2426,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -2503,8 +2452,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-4-u.s.-military-conducts-airstrikes-against-isil-in-support-of-mosul",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-4-u.s.-military-conducts-airstrikes-against-isil-in-support-of-mosul",
 	},
 	{
 		DATE: "4/09/2014 -5/09/2014",
@@ -2523,11 +2471,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul Dam: 36.6303° N, 42.8231° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Mosul Dam.",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL observation post, 1 x ISIL Humvee, 1 x ISIL armed vehicle, 1 x ISIL truck, and 3 x ISIL mortar positions.",
+			OUTCOME: "Destroyed 1 x ISIL observation post, 1 x ISIL Humvee, 1 x ISIL armed vehicle, 1 x ISIL truck, and 3 x ISIL mortar positions.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -2570,8 +2516,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Erbil",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -2616,8 +2561,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Erbil",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
 			OUTCOME:
 				"Destroyed 4 x ISIL Humvees, 1 x ISIL armored personnel carrier, 2 x ISIL trucks (one of which carried 1 x mounted machine gun). 1 x ISIL Humvee and 1 x ISIL truck were damaged in the strikes. ",
@@ -2644,8 +2588,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-6-u.s.-military-conducts-airstrikes-in-support-of-defense-of-irbil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-6-u.s.-military-conducts-airstrikes-in-support-of-defense-of-irbil",
 	},
 	{
 		DATE: "5/09/2014 - 6/09/2014",
@@ -2664,8 +2607,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Erbil",
-		PURPOSE:
-			"Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
+		PURPOSE: "Conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and support Iraqi forces that are acting in furtherance of these objectives.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -2691,8 +2633,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-6-u.s.-military-conducts-airstrikes-in-support-of-defense-of-irbil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-6-u.s.-military-conducts-airstrikes-in-support-of-defense-of-irbil",
 	},
 	{
 		DATE: "6-Sep",
@@ -2738,8 +2679,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/07-us-military-conducts-airstrikes-against-isil-in-support-of-haditha-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/07-us-military-conducts-airstrikes-against-isil-in-support-of-haditha-dam",
 	},
 	{
 		DATE: "6-Sep",
@@ -2805,8 +2745,7 @@ const rawData = [
 		TARGET: "ISIL strongholds near Haditha in Anbar province ",
 		PURPOSE: "In support of Iraqi Security Forces and Sunni tribes protecting the Haditha Dam",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 3 x ISIL armed vehicles (1 x of which was carrying anti-aircraft artillery), 1 x large ISIL ground unit near the Haditha Dam",
+			OUTCOME: "Destroyed 3 x ISIL armed vehicles (1 x of which was carrying anti-aircraft artillery), 1 x large ISIL ground unit near the Haditha Dam",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -2896,8 +2835,7 @@ const rawData = [
 		TARGET: "ISIL strongholds near Haditha in Anbar province ",
 		PURPOSE: "In support of Iraqi Security Forces and Sunni tribes protecting the Haditha Dam.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed or damaged 8 x ISIL armed vehicles (2 x of which were transporting anti-aircraft artillery); 5 ISIL vehicles, and 1 x ISIL transport vehicle",
+			OUTCOME: "Destroyed or damaged 8 x ISIL armed vehicles (2 x of which were transporting anti-aircraft artillery); 5 ISIL vehicles, and 1 x ISIL transport vehicle",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -2921,8 +2859,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept-9-u.s.-military-conducts-airstrikes-against-isil-in-support-of-haditha",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept-9-u.s.-military-conducts-airstrikes-against-isil-in-support-of-haditha",
 	},
 	{
 		DATE: "8/09/2014 - 9/09/2014",
@@ -2967,8 +2904,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept-9-u.s.-military-conducts-airstrikes-against-isil-in-support-of-haditha",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept-9-u.s.-military-conducts-airstrikes-against-isil-in-support-of-haditha",
 	},
 	{
 		DATE: "9-Sep",
@@ -3013,8 +2949,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-10-u.s.-military-conducts-airstrike-against-isil-in-support-of-defens",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-10-u.s.-military-conducts-airstrike-against-isil-in-support-of-defens",
 	},
 	{
 		DATE: "10/09/2014 - 11/09/2014",
@@ -3059,8 +2994,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-11-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-11-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "10/09/2014 - 11/09/2014",
@@ -3105,8 +3039,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-11-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-11-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "11/09/2014 -12/09/2014",
@@ -3151,8 +3084,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-12-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-12-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "11/09/2014 -12/09/2014",
@@ -3197,8 +3129,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-12-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-12-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "12-Sep",
@@ -3243,8 +3174,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-13-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-13-u.s.-military-conducts-airstrikes-against-isil-near-the-mosul-dam",
 	},
 	{
 		DATE: "14/09/2014 -15/09/2014",
@@ -3289,8 +3219,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-sinjar-and-southwest-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-sinjar-and-southwest-of",
 	},
 	{
 		DATE: "14/09/2014 -15/09/2014",
@@ -3336,8 +3265,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-sinjar-and-southwest-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-conducts-airstrikes-against-isil-near-sinjar-and-southwest-of",
 	},
 	{
 		DATE: "15/09/2014 - 16/09/2014",
@@ -3383,8 +3311,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept-16-us-military-conducts-airstrikes-against-isil-southwest-of-baghdad",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept-16-us-military-conducts-airstrikes-against-isil-southwest-of-baghdad",
 	},
 	{
 		DATE: "15/09/2014 - 16/09/2014",
@@ -3429,8 +3356,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept-16-us-military-conducts-airstrikes-against-isil-southwest-of-baghdad",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept-16-us-military-conducts-airstrikes-against-isil-southwest-of-baghdad",
 	},
 	{
 		DATE: "16/09/2014 -17/09/2014",
@@ -3541,8 +3467,7 @@ const rawData = [
 		TARGET: "ISIL strongholds near Baghdad",
 		PURPOSE: "In support of Iraqi Security Forces southwest of Baghdad & as part of US expanded efforts.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed several small ISIL ground units and 1 x small boat on the Euphrates River that was re-supplying ISIL forces in the area",
+			OUTCOME: "Destroyed several small ISIL ground units and 1 x small boat on the Euphrates River that was re-supplying ISIL forces in the area",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -3585,8 +3510,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Baghdad",
-		PURPOSE:
-			"Strikes were conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and assist Iraqi forces in their offensive against ISIL terrorists.",
+		PURPOSE: "Strikes were conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and assist Iraqi forces in their offensive against ISIL terrorists.",
 		EFFECT: {
 			OUTCOME: "Damaged 1 x ISIL ammunition stockpile.",
 		},
@@ -3631,8 +3555,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Mosul: 36.3400° N, 43.1300° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "An ISIL training camp southeast of Mosul",
-		PURPOSE:
-			"Strikes were conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and assist Iraqi forces in their offensive against ISIL terrorists.",
+		PURPOSE: "Strikes were conducted under authority to protect U.S. personnel and facilities, support humanitarian efforts, and assist Iraqi forces in their offensive against ISIL terrorists.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL armed vehicle, 2 x ISIL-occupied buildings and 1 x large ISIL ground unit.",
 		},
@@ -3677,8 +3600,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL resupply boat on Euphrates River ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x boat on the Euphrates River ",
 		},
@@ -3723,8 +3645,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL ground unit near Baghdad",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Struck 1 x small ISIL ground unit",
 		},
@@ -3769,8 +3690,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kirkuk: 35.4667° N, 44.3167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Kirkuk",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL vehicles, 1 x ISIL tank, and damaged 1 x ISIL Humvee",
 		},
@@ -3815,8 +3735,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Tabqah: 35.8367° N, 38.5481° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=JxelVX5i_QM&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=7",
 		TARGET: "ISIL strongholds in the vicinity of Ar Raqqah, Dayr az Zawr, Al Hasakah, and Abu Kamal ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME:
 				"Destroyed or damaged multiple ISIL targets including: ISIL fighters, training compounds, headquarters and command and control facilities, storage facilities, a finance center, supply trucks and armed vehicles.",
@@ -3843,12 +3762,11 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "> 2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
-		DATE: "",
-		COUNTRY: "",
+		DATE: "22/09/2014 - 23/09/2014",
+		COUNTRY: "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
 		"Minimum Strikes": null,
 		"Maximum strikes": "",
 		"TOTAL AIRSTRIKES": null,
@@ -3889,11 +3807,10 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
-		DATE: "22/09/2014 - 23/09/2015",
+		DATE: "22/09/2014 - 23/09/2014",
 		COUNTRY: "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
 		"Minimum Strikes": 1,
 		"Maximum strikes": " ≤10",
@@ -3909,8 +3826,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "",
 		TARGET: "ISIL strongholds in the vicinity of Ar Raqqah, Dayr az Zawr, Al Hasakah, and Abu Kamal ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -3936,11 +3852,10 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
-		DATE: "22/09/2014 - 23/09/2015",
+		DATE: "22/09/2014 - 23/09/2014",
 		COUNTRY: "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
 		"Minimum Strikes": 1,
 		"Maximum strikes": " ≤10",
@@ -3956,8 +3871,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Hasakah: 36.5000° N, 40.9000° E",
 		"YOUTUBE CLIP": "",
 		TARGET: "ISIL strongholds in the vicinity of Ar Raqqah, Dayr az Zawr, Al Hasakah, and Abu Kamal ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -3983,11 +3897,10 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
-		DATE: "22/09/2014 - 23/09/2015",
+		DATE: "22/09/2014 - 23/09/2014",
 		COUNTRY: "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
 		"Minimum Strikes": 1,
 		"Maximum strikes": " ≤10",
@@ -4003,8 +3916,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Abu Kamal: 34.4536° N, 40.9367° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=U5tyRw8INSs&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=12",
 		TARGET: "ISIL strongholds in the vicinity of Ar Raqqah, Dayr az Zawr, Al Hasakah, and Abu Kamal ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -4030,11 +3942,10 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
-		DATE: "22/09/2014 - 23/09/2015",
+		DATE: "22/09/2014 - 23/09/2014",
 		COUNTRY: "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
 		"Minimum Strikes": 1,
 		"Maximum strikes": " ≤10",
@@ -4050,8 +3961,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Abu Kamal: 34.4536° N, 40.9367° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=nShvy9S4pg4&index=9&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
 		TARGET: "ISIL strongholds in the vicinity of Ar Raqqah, Dayr az Zawr, Al Hasakah, and Abu Kamal ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -4077,8 +3987,7 @@ const rawData = [
 		"Maximum Other": "",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "22-Sep",
@@ -4097,8 +4006,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kirkuk: 35.4667° N, 44.3167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Kirkuk",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL Humvees, 1 x ISIL armed vehicle and 1 x ISIL fighting position. ",
 		},
@@ -4124,8 +4032,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "22-Sep",
@@ -4143,13 +4050,10 @@ const rawData = [
 		LOCATION: "West of Aleppo",
 		"LATITUDE & LONGITUDE COORDINATES": "Aleppo: 36.2167° N, 37.1667° E",
 		"YOUTUBE CLIP": "NA",
-		TARGET:
-			"Khorasan Group training camps, an explosives and munitions production facility, a communication building and command and control facilities.",
-		PURPOSE:
-			"Disrupt the imminent attack plotting against the United States and Western interests conducted by a network of seasoned al-Qa'ida's Khorasan Group.",
+		TARGET: "Khorasan Group training camps, an explosives and munitions production facility, a communication building and command and control facilities.",
+		PURPOSE: "Disrupt the imminent attack plotting against the United States and Western interests conducted by a network of seasoned al-Qa'ida's Khorasan Group.",
 		EFFECT: {
-			OUTCOME:
-				"Training camps, 1 x explosives and munitions production facility, 1 x communication building and command and control facilities.",
+			OUTCOME: "Training camps, 1 x explosives and munitions production facility, 1 x communication building and command and control facilities.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -4173,8 +4077,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "22/09/2014 - 23/09/2014",
@@ -4193,8 +4096,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds southwest of Dayr Az Zawr, Syria",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "1 x damaged ISIL armed vehicle and 1 x destroyed ISIL armed vehicle ",
 		},
@@ -4220,8 +4122,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "22/09/2014 - 23/09/2014",
@@ -4240,8 +4141,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Northwest of Baghdad, Iraq",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL armed vehicle ",
 		},
@@ -4267,8 +4167,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-23-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "22/09/2014 - 23/09/2014",
@@ -4287,8 +4186,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds west of Baghdad, Iraq",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL armed vehicles and 1 x weapons cache",
 		},
@@ -4314,8 +4212,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-24-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-24-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "23/09/2014 - 24/09/2014",
@@ -4334,8 +4231,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds southeast of Erbil, Iraq ",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Destroyed ISIL fighting positions",
 		},
@@ -4361,8 +4257,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-24-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-24-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "23/09/2014 - 24/09/2014",
@@ -4381,8 +4276,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Qa'im: 34.3688° N, 41.0945° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds northwest of Al Qa'im, Syria",
-		PURPOSE:
-			"Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
+		PURPOSE: "Strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL.",
 		EFFECT: {
 			OUTCOME: "Damaged 8 x ISIL vehicles",
 		},
@@ -4408,8 +4302,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-24-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-24-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "24-Sep",
@@ -4428,8 +4321,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Mayadin: 35.0167° N, 40.4500° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=w0JOJQlLzok&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=6",
 		TARGET: "12 ISIL-controlled modular oil refineries ",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "12 x ISIL-controlled modular oil refineries ",
 		},
@@ -4455,8 +4347,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
 	},
 	{
 		DATE: "24-Sep",
@@ -4475,8 +4366,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Hasakah: 36.5000° N, 40.9000° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=9HZa0bdSf44&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=8",
 		TARGET: "",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -4502,8 +4392,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
 	},
 	{
 		DATE: "24-Sep",
@@ -4522,8 +4411,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Abu Kamal: 34.4536° N, 40.9367° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "",
 		},
@@ -4549,8 +4437,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
 	},
 	{
 		DATE: "24-Sep",
@@ -4569,8 +4456,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Dayr Az Zawr, Syria",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL vehicle",
 		},
@@ -4596,8 +4482,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syria",
 	},
 	{
 		DATE: "24/09/2014 -25/09/2014",
@@ -4616,8 +4501,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Erbil",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "struck ISIL fighters and damaged 1 x ISIL armed vehicle",
 		},
@@ -4662,11 +4546,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kirkuk: 35.4667° N, 44.3167° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=Nl2FlbNW4sU&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=3",
 		TARGET: "ISIL strongholds in Kirkuk",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
-			OUTCOME:
-				"struck ISIL fighters, destroyed 1x ISIL tank, 1 x ISIL vehicle and 1 x ISIL Humvee, and damaged 2 x ISIL armed vehicles.",
+			OUTCOME: "struck ISIL fighters, destroyed 1x ISIL tank, 1 x ISIL vehicle and 1 x ISIL Humvee, and damaged 2 x ISIL armed vehicles.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -4709,11 +4591,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Baghdad",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL Humvee, 4 x checkpoints, 1 x fighting position, 2 x guard towers, and 1 x command post.",
+			OUTCOME: "Destroyed 1 x ISIL Humvee, 4 x checkpoints, 1 x fighting position, 2 x guard towers, and 1 x command post.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -4756,11 +4636,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kirkuk: 35.4667° N, 44.3167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Kirkuk",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 3 x ISIL Humvees and 1 x ISIL vehicle, disabled  2 x ISIL armed vehicles and damaged 1 x ISIL mine-resistant ambush protected vehicle. ",
+			OUTCOME: "Destroyed 3 x ISIL Humvees and 1 x ISIL vehicle, disabled  2 x ISIL armed vehicles and damaged 1 x ISIL mine-resistant ambush protected vehicle. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -4784,8 +4662,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "25/09/2014 -26/09/2014",
@@ -4804,8 +4681,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Baghdad",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL guard shack, 1 x armed vehicle and  1 x bunker",
 		},
@@ -4831,8 +4707,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "25/09/2014 -26/09/2014",
@@ -4851,8 +4726,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Qa'im: 34.3688° N, 41.0945° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Al Qa'im",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 4 x ISIL armed vehicles, 1 x command and control node and 1 x checkpoint",
 		},
@@ -4878,8 +4752,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "25/09/2014 -26/09/2014",
@@ -4898,8 +4771,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Dayr Az Zawr, Syria",
-		PURPOSE:
-			"The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The U.S. conducted these strikes as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 4 x ISIL tanks and damaged 1 x ISIL tank ",
 		},
@@ -4925,8 +4797,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-26-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "26/09/2014 - 27/09/2014",
@@ -4945,8 +4816,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Hasakah: 36.5000° N, 40.9000° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=gpWHyv5cECA&index=1&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
 		TARGET: "Al Hasakah Military Garrison in South Milibya, Syria",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "1 x ISIL vehicle was destroyed ",
 		},
@@ -4972,8 +4842,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "26/09/2014 - 27/09/2014",
@@ -4992,8 +4861,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Hasakah: 36.5000° N, 40.9000° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Al Hasakah, Syria",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed several buildings that were part of an ISIL garrison ",
 		},
@@ -5019,8 +4887,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "26/09/2014 - 27/09/2014",
@@ -5039,8 +4906,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Manbij: 36.5333° N, 37.9500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Manbij, Syria ",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Damaged 1 x ISIL command and control facility",
 		},
@@ -5066,8 +4932,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "26/09/2014 - 27/09/2014",
@@ -5086,8 +4951,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kobani, Ayn al-Arab: 36.889722° N, 38.355556° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=d1kMXX9B518&list=UUNEEHeS9Y2yFVLbWGeHhbYA&index=5",
 		TARGET: "ISIL strongholds at Kobani border crossing, Ayn al-Arab, Syria",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL building and 2 x armed vehicles",
 		},
@@ -5113,8 +4977,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "26/09/2014 - 27/09/2014",
@@ -5133,8 +4996,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Ar Raqqah: 35.9500° N, 39.0167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds  near Ar Raqqah ",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Damaged 1 x ISIL held airfield, 1 x ISIL garrison and 1 x ISIL training camp ",
 		},
@@ -5160,8 +5022,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "26/09/2014 - 27/09/2014",
@@ -5180,8 +5041,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Erbil: 36.1911° N, 44.0092° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds southwest of Erbil",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 4 xISIL armed vehicles and 1 x ISIL fighting position",
 		},
@@ -5207,8 +5067,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-27-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "27/09/2014 -28/09/2014",
@@ -5227,8 +5086,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Ar Raqqah: 35.9500° N, 39.0167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "Four ISIL-held modular refineries and an ISIL command and control node ",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "4 x ISIL-held modular refineries and 1 x ISIL command and control node",
 		},
@@ -5254,8 +5112,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "27/09/2014 -28/09/2014",
@@ -5274,8 +5131,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Baghdad: 33.3250° N, 44.4220° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Baghdad",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL safe house and damaged 1 x ISIL checkpoint",
 		},
@@ -5301,8 +5157,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "27/09/2014 -28/09/2014",
@@ -5321,8 +5176,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Hasakah: 36.5000° N, 40.9000° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in northeastern Syria",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 3x ISIL armed vehicles and 1 x ISIL Humvee",
 		},
@@ -5348,8 +5202,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "27/09/2014 -28/09/2014",
@@ -5368,8 +5221,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Dayr Az Zawr, Syria",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 1 x ISIL tank and damaged 1 x ISIL tank",
 		},
@@ -5395,8 +5247,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "27/09/2014 -28/09/2014",
@@ -5415,8 +5266,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Fallujah: 33.3500° N, 43.7833° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Fallujah",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL checkpoints and 1 x ISIL transport vehicle",
 		},
@@ -5442,8 +5292,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-28-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5462,11 +5311,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Dayr Az Zawr, Syria",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x  ISIL armed vehicle while another destroyed 1 x ISIL anti-aircraft artillery transport vehicle",
+			OUTCOME: "Destroyed 1 x  ISIL armed vehicle while another destroyed 1 x ISIL anti-aircraft artillery transport vehicle",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -5490,8 +5337,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5510,8 +5356,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Aleppo: 36.2167° N, 37.1667° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "An ISIL compound and an ISIL-held airfield in northwest Syria near Aleppo. ",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "1 x  ISIL compound and 1 x ISIL-held airfield",
 		},
@@ -5537,8 +5382,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5557,8 +5401,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Ar Raqqah: 35.9500° N, 39.0167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: " ISIL compounds near Ar Raqqah",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "ISIL compounds near Ar Raqqah",
 		},
@@ -5584,8 +5427,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5603,10 +5445,8 @@ const rawData = [
 		LOCATION: "Near Manbij, Syria ",
 		"LATITUDE & LONGITUDE COORDINATES": "Manbij: 36.5333° N, 37.9500° E",
 		"YOUTUBE CLIP": "NA",
-		TARGET:
-			"An ISIL training camp and ISIL vehicles within a vehicle staging area adjacent to an ISIL-held grain storage facility near Manbij",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		TARGET: "An ISIL training camp and ISIL vehicles within a vehicle staging area adjacent to an ISIL-held grain storage facility near Manbij",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "struck 1 x ISIL training camp and ISIL vehicles",
 		},
@@ -5632,8 +5472,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5652,8 +5491,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kirkuk: 35.4667° N, 44.3167° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Iraq",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL vehicles ",
 		},
@@ -5679,8 +5517,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5699,8 +5536,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Sinjar: 36.3225° N, 41.8642° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Iraq",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Destroyed 2 x ISIL armed vehicles",
 		},
@@ -5726,8 +5562,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "28/09/2014 - 29/09/2014",
@@ -5746,8 +5581,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Sinjar: 36.3225° N, 41.8642° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Iraq",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Strike against an ISIL armed vehicle unsuccessful",
 		},
@@ -5773,8 +5607,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-29-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-s",
 	},
 	{
 		DATE: "29-Sep",
@@ -5793,8 +5626,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Al Hasakah: 36.5000° N, 40.9000° E",
 		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=bFaBhdwchVI",
 		TARGET: "ISIL-held building east of Al Hasakah",
-		PURPOSE:
-			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
+		PURPOSE: "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. ",
 		EFFECT: {
 			OUTCOME: "Video shows min 1 x ISIL building destroyed.",
 		},
@@ -5866,8 +5698,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -5889,8 +5720,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL artillery piece, 1 x ISIL tank, 3 x ISIL armed vehicles, 2 x ISIL facilities,1 x ISIL observation post and struck 4 x ISIL fighting positions",
+			OUTCOME: "Destroyed 1 x ISIL artillery piece, 1 x ISIL tank, 3 x ISIL armed vehicles, 2 x ISIL facilities,1 x ISIL observation post and struck 4 x ISIL fighting positions",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -5914,8 +5744,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -5961,8 +5790,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -6008,8 +5836,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -6031,8 +5858,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL armored vehicle, 2 x ISIL transport vehicles, and 4 x ISIL armed vehicles and damaged 1 x ISIL armed vehicle.",
+			OUTCOME: "Destroyed 1 x ISIL armored vehicle, 2 x ISIL transport vehicles, and 4 x ISIL armed vehicles and damaged 1 x ISIL armed vehicle.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -6056,8 +5882,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -6103,8 +5928,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -6150,8 +5974,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "29/09/2014 -30/09/2014",
@@ -6197,8 +6020,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/sept.-30-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "30/09/2014 - 01/10/2014",
@@ -6244,8 +6066,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "30/09/2014 -01/10/2014",
@@ -6291,8 +6112,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "30/09/2014 -01/10/2014",
@@ -6338,8 +6158,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "30/09/2014 -01/10/2014",
@@ -6385,8 +6204,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-1-u.s.-military-partner-nation-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6432,8 +6250,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6479,8 +6296,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6526,8 +6342,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "",
 		"Maximum Total Reported Killed": "",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6573,8 +6388,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6620,8 +6434,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6643,8 +6456,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL Humvee, damaged 2 x ISIL Humvees, destroyed 3 x armed vehicles, damaged 1 x armed vehicle, damaged 1 x other vehicle and damaged 1 x ISIL building",
+			OUTCOME: "Destroyed 1 x ISIL Humvee, damaged 2 x ISIL Humvees, destroyed 3 x armed vehicles, damaged 1 x armed vehicle, damaged 1 x other vehicle and damaged 1 x ISIL building",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -6668,8 +6480,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6715,8 +6526,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6762,8 +6572,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "01/10/2014 - 02/10/2014",
@@ -6809,8 +6618,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-2-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "02/10/2014 - 03/10/2014",
@@ -7286,7 +7094,7 @@ const rawData = [
 			WEAPON: "Mix of  coalition fighter and remotely piloted aircraft ",
 		},
 		LOCATION: "Tabqah Airfield, southwest of Ar Raqqah",
-		"LATITUDE & LONGITUDE COORDINATES": "Tabqah Airfield: 35.764722°N, 38.566944°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Tabqah Airfield: 35.764722° N, 38.566944°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "Tabqah Airfield",
 		PURPOSE:
@@ -7838,7 +7646,7 @@ const rawData = [
 			WEAPON: "Mix of US fighter and remotely piloted aircraft",
 		},
 		LOCATION: "Near Taqba Airfield ",
-		"LATITUDE & LONGITUDE COORDINATES": "Taqba Airfield: 35.4553°N, 38.341°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Taqba Airfield: 35.4553° N, 38.341°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Taqba Airfield",
 		PURPOSE:
@@ -7868,8 +7676,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
 	},
 	{
 		DATE: "05/10/2014 - 06/10/2014",
@@ -7915,8 +7722,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
 	},
 	{
 		DATE: "05/10/2014 - 06/10/2014",
@@ -7962,8 +7768,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
 	},
 	{
 		DATE: "05/10/2014 - 06/10/2014",
@@ -8009,8 +7814,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
 	},
 	{
 		DATE: "05/10/2014 - 06/10/2014",
@@ -8056,8 +7860,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-6-u.s.-military-partner-nations-conduct-airstrikes-against-isil-in-syr",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8103,8 +7906,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8150,8 +7952,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8197,8 +7998,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8244,8 +8044,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8291,8 +8090,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8338,8 +8136,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8385,8 +8182,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": ">2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8432,8 +8228,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8479,8 +8274,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8526,8 +8320,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "06/10/2014 - 07/10/2014",
@@ -8573,8 +8366,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": ">2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-7-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8596,8 +8388,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL APC, destroyed 3 x ISIL armed vehicles and damaged  1 x ISIL armed vehicle, and destroyed 1 x ISIL artillery piece",
+			OUTCOME: "Destroyed 1 x ISIL APC, destroyed 3 x ISIL armed vehicles and damaged  1 x ISIL armed vehicle, and destroyed 1 x ISIL artillery piece",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -8621,8 +8412,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8668,8 +8458,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8715,8 +8504,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8762,8 +8550,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "> 2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8809,8 +8596,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8856,8 +8642,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8879,8 +8664,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 3 x ISIL-held buildings and damaged 2 x ISIL-held buildings , destroyed 2 x ISIL anti-aircraft artillery pieces, and destroyed 1 x ISIL unit.",
+			OUTCOME: "Destroyed 3 x ISIL-held buildings and damaged 2 x ISIL-held buildings , destroyed 2 x ISIL anti-aircraft artillery pieces, and destroyed 1 x ISIL unit.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -8904,8 +8688,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8951,8 +8734,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -8998,8 +8780,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "7/10/2014 - 8/10/2014",
@@ -9045,8 +8826,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-8-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "08/10/2014 - 09/10/2014",
@@ -9068,8 +8848,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Damaged 1 x ISIL training camp, destroyed 1 x ISIL support building and destroyed 2 x ISIL vehicles.  Struck 1 x small ISIL unit and 1 x large ISIL unit",
+			OUTCOME: "Damaged 1 x ISIL training camp, destroyed 1 x ISIL support building and destroyed 2 x ISIL vehicles.  Struck 1 x small ISIL unit and 1 x large ISIL unit",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "1",
@@ -9115,8 +8894,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 2 x ISIL-held buildings, 1 x ISIL tank, 1 x ISIL heavy machine gun, and damaged 1 x ISIL fighting position. Strikes also struck 1 x large and 2 x small ISIL units",
+			OUTCOME: "Destroyed 2 x ISIL-held buildings, 1 x ISIL tank, 1 x ISIL heavy machine gun, and damaged 1 x ISIL fighting position. Strikes also struck 1 x large and 2 x small ISIL units",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -9140,8 +8918,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "9-Oct",
@@ -9187,8 +8964,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "9-Oct",
@@ -9234,8 +9010,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "9-Oct",
@@ -9281,8 +9056,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct-9-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "09/10/2014 - 10/10/2014",
@@ -9328,8 +9102,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "09/10/2014 - 10/10/2014",
@@ -9375,8 +9148,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "09/10/2014 - 10/10/2014",
@@ -9422,8 +9194,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "09/10/2014 - 10/10/2014",
@@ -9469,8 +9240,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "09/10/2014 - 10/10/2014",
@@ -9516,8 +9286,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10-Oct",
@@ -9563,8 +9332,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-10-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/10/2014 -11/10/2014",
@@ -9586,8 +9354,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x ISIL fighting position, damaged 1 x ISIL command and control facility, destroyed 1 x ISIL staging building and struck 2 x small ISIL units",
+			OUTCOME: "Struck 1 x ISIL fighting position, damaged 1 x ISIL command and control facility, destroyed 1 x ISIL staging building and struck 2 x small ISIL units",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -9611,8 +9378,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/10/2014 -11/10/2014",
@@ -9658,8 +9424,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/10/2014 -11/10/2014",
@@ -9705,8 +9470,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/10/2014 -11/10/2014",
@@ -9752,8 +9516,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-11-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -9799,8 +9562,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -9846,8 +9608,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -9893,8 +9654,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -9940,8 +9700,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -9987,8 +9746,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -10034,8 +9792,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "11/10/2014 -12/10/2014",
@@ -10081,8 +9838,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-12-u.s.-military-conducts-airstrikes-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/10/2014 - 13/10/2014",
@@ -10104,8 +9860,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x large ISIL unit and 1 x small ISIL unit, damaged 1 x ISIL staging location and destroyed 1 x ISIL heavy machine gun firing position",
+			OUTCOME: "Struck 1 x large ISIL unit and 1 x small ISIL unit, damaged 1 x ISIL staging location and destroyed 1 x ISIL heavy machine gun firing position",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -10151,8 +9906,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x small ISIL unit, damaged 2 x ISIL buildings and destroyed 1 x ISIL staging location and 3 x ISIL buildings",
+			OUTCOME: "Struck 1 x small ISIL unit, damaged 2 x ISIL buildings and destroyed 1 x ISIL staging location and 3 x ISIL buildings",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -10268,8 +10022,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-14-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-14-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "13/10/2014 - 14/10/2014",
@@ -10288,8 +10041,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kobani, Ayn al-Arab: 36.889722° N, 38.355556° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Kobani",
-		PURPOSE:
-			"These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani. ",
+		PURPOSE: "These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani. ",
 		EFFECT: {
 			OUTCOME:
 				"Destroyed 2 x ISIL staging locations, damaged 1 x ISIL staging location, destroyed 1 x ISIL building and damaged 2 x ISIL building , damaged 3 x ISIL compounds, destroyed 1 x ISIL truck, destroyed 1 x ISIL armed vehicle and 1 x other ISIL vehicle. An additional 7 x ISIL staging areas, 2 x ISIL mortar positions, 3 x ISIL occupied buildings and 1 x ISIL artillery storage facility were struck and initial indications are that these strikes were successful",
@@ -10316,8 +10068,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-14-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-14-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "13/10/2014 - 14/10/2014",
@@ -10336,8 +10087,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "a modular oil refinery",
-		PURPOSE:
-			"These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani. ",
+		PURPOSE: "These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani. ",
 		EFFECT: {
 			OUTCOME: "Struck 1 x modular oil refinery and initial indications are that this strike was successful",
 		},
@@ -10363,8 +10113,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-14-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-14-u.s.-military-partner-nations-conduct-airstrikes-against-isil",
 	},
 	{
 		DATE: "14/10/2014 - 15/10/2014",
@@ -10410,8 +10159,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-15-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-15-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "14/10/2014 - 15/10/2014",
@@ -10433,8 +10181,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL building, 1 x ISIL Humvee, and 1 x ISIL machine gun, and damaged 1 x ISIL artillery piece.",
+			OUTCOME: "Destroyed 1 x ISIL building, 1 x ISIL Humvee, and 1 x ISIL machine gun, and damaged 1 x ISIL artillery piece.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -10458,8 +10205,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-15-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-15-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "14/10/2014 - 15/10/2014",
@@ -10505,8 +10251,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-15-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-15-u.s.-military-conducts-airstrikes-against-isil-in-iraq-and-syria",
 	},
 	{
 		DATE: "15/10/2014 - 16/10/2014",
@@ -10525,8 +10270,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kobani, Ayn al-Arab: 36.889722° N, 38.355556° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Kobani",
-		PURPOSE:
-			"These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani",
+		PURPOSE: "These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani",
 		EFFECT: {
 			OUTCOME:
 				"Initial reports indicate the strikes successfully struck 19 x  ISIL buildings, 2 x  ISIL command posts, 3 x ISIL fighting positions, 3 x ISIL sniper positions, 1 x ISIL staging location, and 1 x ISIL heavy machine gun.",
@@ -10553,8 +10297,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-16-u.s.-military-conducts-airstrikes-in-syria-in-support-of-operation",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-16-u.s.-military-conducts-airstrikes-in-syria-in-support-of-operation",
 	},
 	{
 		DATE: "16/10/2014 - 17/10/2014",
@@ -10573,11 +10316,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kobani, Ayn al-Arab: 36.889722° N, 38.355556° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Kobani",
-		PURPOSE:
-			"These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani",
+		PURPOSE: "These airstrikes are designed to interdict ISIL reinforcements and resupply and prevent ISIL from massing combat power on the Kurdish held portions of Kobani",
 		EFFECT: {
-			OUTCOME:
-				"Struck 3 x ISIL buildings, destroyed 2 x ISIL fighting positions, suppressed 3 x ISIL fighting positions and destroyed 2 x ISIL vehicles. ",
+			OUTCOME: "Struck 3 x ISIL buildings, destroyed 2 x ISIL fighting positions, suppressed 3 x ISIL fighting positions and destroyed 2 x ISIL vehicles. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -10601,8 +10342,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
 	},
 	{
 		DATE: "16/10/2014 - 17/10/2014",
@@ -10618,11 +10358,10 @@ const rawData = [
 			WEAPON: "US fighter aircraft ",
 		},
 		LOCATION: "Near Shadadi",
-		"LATITUDE & LONGITUDE COORDINATES": "Shadadi: 36.055556°N   40.720833°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Shadadi: 36.055556° N, 40.720833°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL oil collection equipment near Shadadi",
-		PURPOSE:
-			"This strike was intended to destroy a portion of ISIL's ability to operate oil tanker trucks at oil collection points. ",
+		PURPOSE: "This strike was intended to destroy a portion of ISIL's ability to operate oil tanker trucks at oil collection points. ",
 		EFFECT: {
 			OUTCOME:
 				'successfully struck multiple ISIL oil collection equipment consisting of several "POL tanks" (petroleum, oil and lubricants) and a pump station, which represents part of the terrorist group\'s oil producing, processing and transportation infrastructure',
@@ -10649,8 +10388,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
 	},
 	{
 		DATE: "16/10/2014 - 17/10/2014",
@@ -10696,8 +10434,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
 	},
 	{
 		DATE: "16/10/2014 - 17/10/2014",
@@ -10743,8 +10480,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
+		SOURCE: " http://www.centcom.mil/en/news/articles/oct.-17-military-airstrikes-in-support-of-operation-inherent-resolve",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -10763,8 +10499,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Kobani, Ayn al-Arab: 36.889722° N, 38.355556° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "Two ISIL fighting positions",
-		PURPOSE:
-			"These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
+		PURPOSE: "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
 		EFFECT: {
 			OUTCOME: "Suppressed 2 x ISIL fighting positions",
 		},
@@ -10790,8 +10525,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -10807,11 +10541,10 @@ const rawData = [
 			WEAPON: "Mix of US fighter and bomber aircraft ",
 		},
 		LOCATION: "Southwest of Ain Aissa ",
-		"LATITUDE & LONGITUDE COORDINATES": "Ain Aissa: 36.616667°N,  38.716667°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Ain Aissa: 36.616667° N,  38.716667°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "An ISIL military camp",
-		PURPOSE:
-			"These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
+		PURPOSE: "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
 		EFFECT: {
 			OUTCOME: "Damaged 1 x ISIL military camp",
 		},
@@ -10837,8 +10570,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -10857,8 +10589,7 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dayr az Zawr: 35.3333° N, 40.1500° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "An ISIL modular oil refinery",
-		PURPOSE:
-			"These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
+		PURPOSE: "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
 		EFFECT: {
 			OUTCOME: "Damaged 1 x ISIL modular oil refinery",
 		},
@@ -10884,8 +10615,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -10904,11 +10634,9 @@ const rawData = [
 		"LATITUDE & LONGITUDE COORDINATES": "Dhībān, Syria: 35.0155° N, 40.5109° E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "An ISIL crude oil collection point",
-		PURPOSE:
-			"These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
+		PURPOSE: "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x ISIL crude oil collection point - consisting of crude oil collection equipment and  1 x modular oil refinery",
+			OUTCOME: "Struck 1 x ISIL crude oil collection point - consisting of crude oil collection equipment and  1 x modular oil refinery",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -10932,8 +10660,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -10949,11 +10676,10 @@ const rawData = [
 			WEAPON: "Mix of US fighter and bomber aircraft ",
 		},
 		LOCATION: "Northeast of Khusham ",
-		"LATITUDE & LONGITUDE COORDINATES": "Khusham: 35.266667°N, 40.266667 °E",
+		"LATITUDE & LONGITUDE COORDINATES": "Khusham: 35.266667° N, 40.266667 °E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: " An ISIL crude oil collection point",
-		PURPOSE:
-			"These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
+		PURPOSE: "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
 		EFFECT: {
 			OUTCOME: "Struck 1 x ISIL crude oil collection point",
 		},
@@ -10979,8 +10705,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -10996,11 +10721,10 @@ const rawData = [
 			WEAPON: "Mix of US fighter and bomber aircraft ",
 		},
 		LOCATION: "East of Sharra ",
-		"LATITUDE & LONGITUDE COORDINATES": "Sharra: 34.922778°N, 40.561667°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Sharra: 34.922778° N, 40.561667°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "An ISIL modular oil refinery",
-		PURPOSE:
-			"These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
+		PURPOSE: "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
 		EFFECT: {
 			OUTCOME: "Struck 1 x ISIL modular oil refinery",
 		},
@@ -11026,8 +10750,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -11074,8 +10797,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "17/10/2014 - 18/10/2014",
@@ -11097,8 +10819,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.  ",
 		EFFECT: {
-			OUTCOME:
-				"Damaged 1 x ISIL building and destroyed 1 x ISIL heavy machine gun, 1 x ISIL HMMWV (humvee) and struck 3 x small ISIL ground units.  ",
+			OUTCOME: "Damaged 1 x ISIL building and destroyed 1 x ISIL heavy machine gun, 1 x ISIL HMMWV (humvee) and struck 3 x small ISIL ground units.  ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -11122,8 +10843,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-18-military-airstrikes-against-isil-in-syria-and-in-iraq-in-support-of",
 	},
 	{
 		DATE: "18/10/2014 - 19/10/2014",
@@ -11191,8 +10911,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.  ",
 		EFFECT: {
-			OUTCOME:
-				"Damaged 1 x ISIL modular oil refinery to further degrade and destroy ISIL's oil producing, collecting, storage and transportation infrastructure. ",
+			OUTCOME: "Damaged 1 x ISIL modular oil refinery to further degrade and destroy ISIL's oil producing, collecting, storage and transportation infrastructure. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -11468,8 +11187,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed ISIL fighting and mortar positions, 1 x ISIL vehicle, and 1 x stray resupply bundle from a U.S. airdrop. ",
+			OUTCOME: "Destroyed ISIL fighting and mortar positions, 1 x ISIL vehicle, and 1 x stray resupply bundle from a U.S. airdrop. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -11493,8 +11211,7 @@ const rawData = [
 		"Maximum Other": "1",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
 	},
 	{
 		DATE: "19/10/2014 -20/10/2014",
@@ -11540,8 +11257,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
 	},
 	{
 		DATE: "19/10/2014 -20/10/2014",
@@ -11563,8 +11279,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x small ISIL unit, destroyed 1 x ISIL building and 3 x ISIL vehicles, and damaged 1 x ISIL building",
+			OUTCOME: "Struck 1 x small ISIL unit, destroyed 1 x ISIL building and 3 x ISIL vehicles, and damaged 1 x ISIL building",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -11588,8 +11303,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
 	},
 	{
 		DATE: "19/10/2014 -20/10/2014",
@@ -11635,8 +11349,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-20-military-airstrikes-continue-against-isil-in-syria-and-in-iraq",
 	},
 	{
 		DATE: "20/10/2014 - 21/10/2014",
@@ -11682,8 +11395,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "20/10/2014 - 21/10/2014",
@@ -11729,8 +11441,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "20/10/2014 - 21/10/2014",
@@ -11776,8 +11487,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "20/10/2014 - 21/10/2014",
@@ -11823,8 +11533,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/10/2014 -22/10/2014",
@@ -11846,8 +11555,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed ISIL fighting positions, 2 x ISIL vehicles, 1 x ISIL building, and 1 x ISIL logistical center",
+			OUTCOME: "Destroyed ISIL fighting positions, 2 x ISIL vehicles, 1 x ISIL building, and 1 x ISIL logistical center",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -11893,8 +11601,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x  large ISIL unit, 1 x ISIL mortar launching position, 3 x ISIL vehicles, and multiple ISIL fighting positions.",
+			OUTCOME: "Destroyed 1 x  large ISIL unit, 1 x ISIL mortar launching position, 3 x ISIL vehicles, and multiple ISIL fighting positions.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -12440,7 +12147,7 @@ const rawData = [
 			WEAPON: "Mix of US & partner nation bomber, fighter and remotely piloted aircraft",
 		},
 		LOCATION: "Near Zumar ",
-		"LATITUDE & LONGITUDE COORDINATES": "Zumar: 36.656667°N, 42.604722°E ",
+		"LATITUDE & LONGITUDE COORDINATES": "Zumar: 36.656667° N, 42.604722°E ",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Zumar",
 		PURPOSE:
@@ -12538,8 +12245,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x large ISIL unit, 1 x small ISIL unit, destroyed 1 x ISIL building, damaged 1 x ISIL building and destroyed 2 x ISIL fighting positions",
+			OUTCOME: "Struck 1 x large ISIL unit, 1 x small ISIL unit, destroyed 1 x ISIL building, damaged 1 x ISIL building and destroyed 2 x ISIL fighting positions",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -12631,8 +12337,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 4 x small ISIL units, 1 x large ISIL unit, destroyed 1 x ISIL building, 6 x ISIL fighting positions and 4 x ISIL staging locations",
+			OUTCOME: "Struck 4 x small ISIL units, 1 x large ISIL unit, destroyed 1 x ISIL building, 6 x ISIL fighting positions and 4 x ISIL staging locations",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -12718,7 +12423,7 @@ const rawData = [
 			WEAPON: "Mix of US & partner nations bomber, fighter and remotely piloted aircraft",
 		},
 		LOCATION: "Near Qurayat al Hajjaj ",
-		"LATITUDE & LONGITUDE COORDINATES": "Al Kuray`at, Iraq: 33.3905556°N, 044.3419444°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Al Kuray`at, Iraq: 33.3905556° N, 044.3419444°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Qurayat al Hajjaj ",
 		PURPOSE:
@@ -12764,7 +12469,7 @@ const rawData = [
 			WEAPON: "Mix of US & partner nations bomber, fighter and remotely piloted aircraft",
 		},
 		LOCATION: "East of Hayy Al Arabi ",
-		"LATITUDE & LONGITUDE COORDINATES": "Hayy Al Arabi:33.9910700 °N, 44.9614800°E  ",
+		"LATITUDE & LONGITUDE COORDINATES": "Hayy Al Arabi:33.9910700 ° N, 44.9614800°E  ",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds east of Hayy Al Arabi ",
 		PURPOSE:
@@ -12810,7 +12515,7 @@ const rawData = [
 			WEAPON: "Mix of US & partner nations bomber, fighter and remotely piloted aircraft",
 		},
 		LOCATION: "Near Aynzalah ",
-		"LATITUDE & LONGITUDE COORDINATES": "Aynzalah: 36.716667°N,42.600°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Aynzalah: 36.716667° N,42.600°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near Aynzalah ",
 		PURPOSE:
@@ -12886,8 +12591,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "25/10/2014 -26/10/2014",
@@ -12909,8 +12613,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Struck 2 x small ISIL units, damaged 1 x ISIL building and destroyed 4 x ISIL vehicles and 1 x ISIL artillery piece",
+			OUTCOME: "Struck 2 x small ISIL units, damaged 1 x ISIL building and destroyed 4 x ISIL vehicles and 1 x ISIL artillery piece",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -12934,8 +12637,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "25/10/2014 -26/10/2014",
@@ -12957,8 +12659,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x large ISIL unit and 1 x small ISIL unit, and destroyed 2 x ISIL vehicles and 2 x ISIL buildings",
+			OUTCOME: "Struck 1 x large ISIL unit and 1 x small ISIL unit, and destroyed 2 x ISIL vehicles and 2 x ISIL buildings",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -12982,8 +12683,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "25/10/2014 -26/10/2014",
@@ -13029,8 +12729,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-26-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "26/10/2014-27/10/2014",
@@ -13076,8 +12775,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "26/10/2014-27/10/2014",
@@ -13123,8 +12821,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "26/10/2014-27/10/2014",
@@ -13170,8 +12867,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "26/10/2014-27/10/2014",
@@ -13217,8 +12913,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "> 2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "26/10/2014-27/10/2014",
@@ -13264,8 +12959,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "26/10/2014-27/10/2014",
@@ -13281,7 +12975,7 @@ const rawData = [
 			WEAPON: "Mix of US & partner nation fighters, attack and remotely piloted aircraft ",
 		},
 		LOCATION: "East of Zumar ",
-		"LATITUDE & LONGITUDE COORDINATES": "Zumar: 36.656667°N, 42.604722°E ",
+		"LATITUDE & LONGITUDE COORDINATES": "Zumar: 36.656667° N, 42.604722°E ",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds in Zumar",
 		PURPOSE:
@@ -13311,8 +13005,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-27-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "27/10/2014 - 28/10/2014",
@@ -13358,8 +13051,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "27/10/2014 - 28/10/2014",
@@ -13405,8 +13097,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "27/10/2014 - 28/10/2014",
@@ -13428,8 +13119,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x small ISIL unit, 1 x ISIL fighting position, 1 x ISIL vehicle and 1 x ISIL logistics base.",
+			OUTCOME: "Destroyed 1 x small ISIL unit, 1 x ISIL fighting position, 1 x ISIL vehicle and 1 x ISIL logistics base.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -13453,8 +13143,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "27/10/2014 - 28/10/2014",
@@ -13500,8 +13189,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "27/10/2014 - 28/10/2014",
@@ -13547,8 +13235,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "27/10/2014 - 28/10/2014",
@@ -13594,8 +13281,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-28-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "28/10/2014 -29/10/2014",
@@ -13617,8 +13303,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 5 x ISIL fighting positions, 1 x small ISIL unit, 6 x ISIL vehicles, 1 x ISIL-occupied building and 1 x ISIL command and control node.",
+			OUTCOME: "Destroyed 5 x ISIL fighting positions, 1 x small ISIL unit, 6 x ISIL vehicles, 1 x ISIL-occupied building and 1 x ISIL command and control node.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -14010,8 +13695,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "30/10/2014-31/10/2014",
@@ -14057,8 +13741,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "30/10/2014-31/10/2014",
@@ -14104,8 +13787,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "30/10/2014-31/10/2014",
@@ -14151,11 +13833,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "30/10/2014-31/10/2015",
+		DATE: "30/10/2014-31/10/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 1,
 		"Maximum strikes": "1",
@@ -14198,8 +13879,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/oct.-31-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "31/10/2014-01/11/2014",
@@ -14245,8 +13925,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-1-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-1-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "31/10/2014-01/11/2014",
@@ -14292,11 +13971,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-1-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-1-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "31/10/2014-01/11/2015",
+		DATE: "31/10/2014-01/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 4,
 		"Maximum strikes": "4",
@@ -14339,8 +14017,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-1-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-1-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "01/11/2014-02/11/2014",
@@ -14386,8 +14063,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "01/11/2014-02/11/2014",
@@ -14433,8 +14109,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "01/11/2014-02/11/2014",
@@ -14480,8 +14155,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "01/11/2014-02/11/2014",
@@ -14527,8 +14201,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-2-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "02/11/2014-03/11/2014",
@@ -14574,8 +14247,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "02/11/2014-03/11/2014",
@@ -14621,8 +14293,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "02/11/2014-03/11/2014",
@@ -14668,8 +14339,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "02/11/2014-03/11/2014",
@@ -14691,8 +14361,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x large ISIL unit and destroyed 5 x ISIL bulldozers and 1 x ISIL dump truck involved in creating obstructions and berms.",
+			OUTCOME: "Struck 1 x large ISIL unit and destroyed 5 x ISIL bulldozers and 1 x ISIL dump truck involved in creating obstructions and berms.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -14716,8 +14385,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "02/11/2014-03/11/2014",
@@ -14763,8 +14431,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-3-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -14786,8 +14453,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 1 x small ISIL unit, 2 x ISIL fighting positions and 1 x ISIL dump truck used to construct fighting positions.",
+			OUTCOME: "Struck 1 x small ISIL unit, 2 x ISIL fighting positions and 1 x ISIL dump truck used to construct fighting positions.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -14811,8 +14477,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -14834,8 +14499,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL fighting position used to launch mortar attacks and struck 1 x small ISIL unit manning the position.",
+			OUTCOME: "Destroyed 1 x ISIL fighting position used to launch mortar attacks and struck 1 x small ISIL unit manning the position.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -14859,8 +14523,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -14882,8 +14545,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed ISIL-occupied buildings, to include 1 x housing a generator used for oil production and 1 x used to manufacture explosive devices such as IEDS and VBIEDs.",
+			OUTCOME: "Destroyed ISIL-occupied buildings, to include 1 x housing a generator used for oil production and 1 x used to manufacture explosive devices such as IEDS and VBIEDs.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -14907,8 +14569,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -14930,8 +14591,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
 		EFFECT: {
-			OUTCOME:
-				"Struck 2 x small ISIL units, destroyed 1 x ISIL vehicle, 1 x ISIL-occupied bunker and 1 x ISIL anti-aircraft artillery piece.",
+			OUTCOME: "Struck 2 x small ISIL units, destroyed 1 x ISIL vehicle, 1 x ISIL-occupied bunker and 1 x ISIL anti-aircraft artillery piece.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -14955,8 +14615,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -15002,8 +14661,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -15049,8 +14707,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "03/11/2014-05/11/2014",
@@ -15096,8 +14753,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-5-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 06/11/2014",
@@ -15144,8 +14800,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-6-u.s.-military-forces-conduct-airstrikes-against-khorasan-group-terro",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-6-u.s.-military-forces-conduct-airstrikes-against-khorasan-group-terro",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15191,8 +14846,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15238,8 +14892,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15285,8 +14938,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15332,8 +14984,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15379,8 +15030,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15426,8 +15076,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "05/11/2014 - 07/11/2014",
@@ -15473,11 +15122,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-7-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 13,
 		"Maximum strikes": "13",
@@ -15521,11 +15169,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 8,
 		"Maximum strikes": "8",
@@ -15544,8 +15191,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. The destruction of ISIL targets in Syria and Iraq further limits the terrorist group's ability to project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"Damaged several structures of an ISIL oil collection facility which was used to trans-load oil for the black market",
+			OUTCOME: "Damaged several structures of an ISIL oil collection facility which was used to trans-load oil for the black market",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -15569,11 +15215,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 2,
 		"Maximum strikes": "2",
@@ -15616,11 +15261,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 7,
 		"Maximum strikes": "7",
@@ -15639,8 +15283,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. The destruction of ISIL targets in Syria and Iraq further limits the terrorist group's ability to project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"Struck 3 x small ISIL units and destroyed 1 x ISIL sniper position and 2 x ISIL vehicles, one which was used for construction. ",
+			OUTCOME: "Struck 3 x small ISIL units and destroyed 1 x ISIL sniper position and 2 x ISIL vehicles, one which was used for construction. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -15664,11 +15307,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 3,
 		"Maximum strikes": "3",
@@ -15687,8 +15329,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. The destruction of ISIL targets in Syria and Iraq further limits the terrorist group's ability to project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"Struck 2 x small ISIL units, ISIL fighters who were emplacing an improvised explosive device (IED) on a road and destroyed 1 x ISIL vehicle mounted with an anti-aircraft gun. ",
+			OUTCOME: "Struck 2 x small ISIL units, ISIL fighters who were emplacing an improvised explosive device (IED) on a road and destroyed 1 x ISIL vehicle mounted with an anti-aircraft gun. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -15712,11 +15353,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": ">2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 3,
 		"Maximum strikes": "3",
@@ -15735,8 +15375,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. The destruction of ISIL targets in Syria and Iraq further limits the terrorist group's ability to project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"struck 1 x small ISIL unit and destroyed 1 x ISIL armed truck and  a vehicle convoy consisting of  10 x ISIL armed trucks",
+			OUTCOME: "struck 1 x small ISIL unit and destroyed 1 x ISIL armed truck and  a vehicle convoy consisting of  10 x ISIL armed trucks",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -15760,11 +15399,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 2,
 		"Maximum strikes": "2",
@@ -15807,11 +15445,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 1,
 		"Maximum strikes": "1",
@@ -15854,11 +15491,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 1,
 		"Maximum strikes": "1",
@@ -15901,11 +15537,10 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
-		DATE: "07-11/2014 - 10/11/2014",
+		DATE: "07/11/2014 - 10/11/2014",
 		COUNTRY: "US & Undetermined Partner Nations",
 		"Minimum Strikes": 1,
 		"Maximum strikes": "1",
@@ -15948,8 +15583,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-10-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/11/2014 -12/11/2014",
@@ -15971,8 +15605,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 8 x small ISIL units, damaged 3 x ISIL fighting positions and destroyed 1 x ISIL logistics facility. ",
+			OUTCOME: "Struck 8 x small ISIL units, damaged 3 x ISIL fighting positions and destroyed 1 x ISIL logistics facility. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -15996,8 +15629,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/11/2014 -12/11/2014",
@@ -16043,8 +15675,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/11/2014 -12/11/2014",
@@ -16090,8 +15721,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/11/2014 -12/11/2014",
@@ -16137,8 +15767,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/11/2014 -12/11/2014",
@@ -16184,8 +15813,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "10/11/2014 -12/11/2014",
@@ -16207,8 +15835,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. The destruction of ISIL targets in Syria and Iraq further limits the terrorist group's ability to project power and conduct operations.",
 		EFFECT: {
-			OUTCOME:
-				"Struck 3 x small ISIL units, 1 x large ISIL unit and destroyed 2 x ISIL buildings, 1 x ISIL sniper position, 2 x ISIL vehicles, 1 x ISIL mortar tube and 1 x ISIL artillery piece.",
+			OUTCOME: "Struck 3 x small ISIL units, 1 x large ISIL unit and destroyed 2 x ISIL buildings, 1 x ISIL sniper position, 2 x ISIL vehicles, 1 x ISIL mortar tube and 1 x ISIL artillery piece.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -16232,8 +15859,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-12-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16255,8 +15881,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 10 x ISIL units, destroyed 10 x fighting positions, 1 x ISIL building, 2 x ISIL vehicles, and 1 x ISIL motorcycle. ",
+			OUTCOME: "Struck 10 x ISIL units, destroyed 10 x fighting positions, 1 x ISIL building, 2 x ISIL vehicles, and 1 x ISIL motorcycle. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -16280,8 +15905,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16327,8 +15951,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16374,8 +15997,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16420,8 +16042,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": ">2",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16467,8 +16088,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16490,8 +16110,7 @@ const rawData = [
 		PURPOSE:
 			"The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 2 x small ISIL units, destroyed 1 x ISIL heavy machine gun, 1 x ISIL weapons bunker, and 1 x ISIL vehicle. ",
+			OUTCOME: "Struck 2 x small ISIL units, destroyed 1 x ISIL heavy machine gun, 1 x ISIL weapons bunker, and 1 x ISIL vehicle. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -16515,8 +16134,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16562,8 +16180,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16609,8 +16226,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16656,8 +16272,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16703,8 +16318,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "12/11/2014 - 14/11/2014",
@@ -16750,8 +16364,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-14-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -16773,8 +16386,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.  ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 7 x ISIL fighting positions, suppressed another 1 x ISIL fighting position, destroyed 4 x ISIL staging areas, and struck 1 x tactical ISIL unit.  ",
+			OUTCOME: "Destroyed 7 x ISIL fighting positions, suppressed another 1 x ISIL fighting position, destroyed 4 x ISIL staging areas, and struck 1 x tactical ISIL unit.  ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -16798,8 +16410,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -16845,8 +16456,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -16892,8 +16502,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -16939,8 +16548,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -16986,8 +16594,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -17033,8 +16640,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -17080,8 +16686,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -17127,8 +16732,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -17174,8 +16778,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "14/11/14 - 17/11/14",
@@ -17197,8 +16800,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.  ",
 		EFFECT: {
-			OUTCOME:
-				"Struck 2 x tactical ISIL units and 1 x large ISIL unit and destroyed 1 x ISIL tank, 1 x ISIL vehicle, and 4 x ISIL fighting positions.",
+			OUTCOME: "Struck 2 x tactical ISIL units and 1 x large ISIL unit and destroyed 1 x ISIL tank, 1 x ISIL vehicle, and 4 x ISIL fighting positions.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -17222,8 +16824,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-17-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17270,8 +16871,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17317,8 +16917,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17336,8 +16935,7 @@ const rawData = [
 		LOCATION: "Northwest Syria near Haram",
 		"LATITUDE & LONGITUDE COORDINATES": "Haram/ Harem: 36.2000° N, 36.5167° E",
 		"YOUTUBE CLIP": "NA",
-		TARGET:
-			'A storage facility associated with a network of veteran Al Qaeda operatives, sometimes called the "Khorasan Group," ',
+		TARGET: 'A storage facility associated with a network of veteran Al Qaeda operatives, sometimes called the "Khorasan Group," ',
 		PURPOSE: "To prevent the group from plotting external attacks against the United States and our allies.",
 		EFFECT: {
 			OUTCOME: "Struck and destroyed 1 x storage facility ",
@@ -17364,8 +16962,7 @@ const rawData = [
 		"Maximum Other": "1",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17387,8 +16984,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 2 x ISIL fighting positions, 7 x ISIL staging areas, 1 x ISIL mortar position, 1 x ISIL bulldozer and 1 x front-loader. ",
+			OUTCOME: "Destroyed 2 x ISIL fighting positions, 7 x ISIL staging areas, 1 x ISIL mortar position, 1 x ISIL bulldozer and 1 x front-loader. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -17412,8 +17008,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17460,8 +17055,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17507,8 +17101,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "17/11/2014 -19/11/2014",
@@ -17554,8 +17147,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-19-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19-Nov",
@@ -17602,51 +17194,6 @@ const rawData = [
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
 		SOURCE: "https://www.youtube.com/watch?v=PhuIKLF-NHo&index=4&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
-	},
-	{
-		DATE: "",
-		COUNTRY: "",
-		"Minimum Strikes": null,
-		"Maximum strikes": "",
-		"TOTAL AIRSTRIKES": null,
-		"AIRSTRIKE CAMPAIGN RUNNING TOTALS (CENTCOM)": null,
-		"TIME (AST) IRAQ": {
-			" SYRIA": "",
-		},
-		PLATFORM: {
-			WEAPON: "",
-		},
-		LOCATION: "",
-		"LATITUDE & LONGITUDE COORDINATES": "",
-		"YOUTUBE CLIP": "https://www.youtube.com/watch?v=SzkI54u_xg8&index=3&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
-		TARGET: "",
-		PURPOSE: "",
-		EFFECT: {
-			OUTCOME: "",
-		},
-		"Minimum ISIL Camps": {
-			" Training Facilities": "",
-		},
-		"Maximum ISIL Camps": {
-			" Training Facilities": "",
-		},
-		"Minimum Oil Refineries, collection points & Stores": "",
-		"Maximum Oil Refineries, collection points & Stores": "",
-		"Minimum ISIL Command Posts, Buildings, Structures & Facilities": "",
-		"Maximum ISIL Command Posts, Buildings, Structures & Facilities": "",
-		"Minimum vehicles": "",
-		"Maximum vehicles": "",
-		"Minimum Weaponry": "",
-		"Maximum Weaponry": "",
-		"Minimum Mortar, Fighting Positions, Units & Observation Posts": "",
-		"Maximum Mortar, Fighting Positions, Units & Observation Posts": "",
-		"Minimum checkpoints": "",
-		"Maximum checkpoints": "",
-		"Minimum Other": "",
-		"Maximum Other": "",
-		"Minimum Total Reported Killed": "",
-		"Maximum Total Reported Killed": "",
-		SOURCE: "https://www.youtube.com/watch?v=SzkI54u_xg8&index=3&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
 	},
 	{
 		DATE: "19-Nov",
@@ -17714,8 +17261,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 4 x ISIL staging areas, 2 x ISIL-occupied buildings, 2 x ISIL tactical units, and suppressed 1 x ISIL fighting position.",
+			OUTCOME: "Destroyed 4 x ISIL staging areas, 2 x ISIL-occupied buildings, 2 x ISIL tactical units, and suppressed 1 x ISIL fighting position.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -17739,8 +17285,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -17786,8 +17331,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -17809,8 +17353,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 3 x ISIL buildings, 1 x bunker (ammunition? - see YouTube clip), 2 x ISIL transport vehicles, 5 x ISIL tactical units, 1 x ISIL checkpoint and damaged 1 x ISIL building. ",
+			OUTCOME: "Destroyed 3 x ISIL buildings, 1 x bunker (ammunition? - see YouTube clip), 2 x ISIL transport vehicles, 5 x ISIL tactical units, 1 x ISIL checkpoint and damaged 1 x ISIL building. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -17834,8 +17377,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -17882,8 +17424,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -17929,8 +17470,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -17946,7 +17486,7 @@ const rawData = [
 			WEAPON: "Mix of US and partner nation fighter, attack, bomber and remotely-piloted aircraft ",
 		},
 		LOCATION: "Near al Asad",
-		"LATITUDE & LONGITUDE COORDINATES": "Al Asad:33.785608°N, 42.4412°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Al Asad:33.785608° N, 42.4412°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near al Asad",
 		PURPOSE:
@@ -17976,8 +17516,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -18023,8 +17562,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -18046,8 +17584,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL vehicle and 1 x ISIL tactical unit, while also damaging 1 x ISIL armored vehicle and 1 x ISIL-occupied building. ",
+			OUTCOME: "Destroyed 1 x ISIL vehicle and 1 x ISIL tactical unit, while also damaging 1 x ISIL armored vehicle and 1 x ISIL-occupied building. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -18071,8 +17608,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "19/11/2014 - 21/11/2014",
@@ -18118,8 +17654,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			"http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: "http://www.centcom.mil/en/news/articles/nov.-21-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18141,8 +17676,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 3 x ISIL fighting positions and 2 x ISIL staging areas, damaged 1 x ISIL staging area and suppressed 4 x ISIL fighting positions",
+			OUTCOME: "Destroyed 3 x ISIL fighting positions and 2 x ISIL staging areas, damaged 1 x ISIL staging area and suppressed 4 x ISIL fighting positions",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -18166,8 +17700,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18213,8 +17746,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18236,8 +17768,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL checkpoint, 3 x ISIL HMMWVs, 1 x large ISIL unit, 2 x tactical ISIL units and 1 x heavy weapon.",
+			OUTCOME: "Destroyed 1 x ISIL checkpoint, 3 x ISIL HMMWVs, 1 x large ISIL unit, 2 x tactical ISIL units and 1 x heavy weapon.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -18261,8 +17792,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18278,14 +17808,13 @@ const rawData = [
 			WEAPON: "Mix of US and partner nation fighter, attack, bomber and remotely-piloted aircraft",
 		},
 		LOCATION: "Near al-Asad",
-		"LATITUDE & LONGITUDE COORDINATES": "Al Asad:33.785608°N, 42.4412°E",
+		"LATITUDE & LONGITUDE COORDINATES": "Al Asad:33.785608° N, 42.4412°E",
 		"YOUTUBE CLIP": "NA",
 		TARGET: "ISIL strongholds near al-Asad",
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x mortar position,  1 x ISIL artillery piece, 1 x ISIL vehicle and 1 x tactical ISIL unit and damaged 1 x ISIL-occupied building and 1 x ISIL vehicle. ",
+			OUTCOME: "Destroyed 1 x mortar position,  1 x ISIL artillery piece, 1 x ISIL vehicle and 1 x tactical ISIL unit and damaged 1 x ISIL-occupied building and 1 x ISIL vehicle. ",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -18309,8 +17838,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18332,8 +17860,7 @@ const rawData = [
 		PURPOSE:
 			"The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
 		EFFECT: {
-			OUTCOME:
-				"Destroyed 1 x ISIL-occupied building, 3 x ISIL vehicles, 1 x ISIL HMMWV and 2 x tactical ISIL units - one of which was emplacing IEDs.",
+			OUTCOME: "Destroyed 1 x ISIL-occupied building, 3 x ISIL vehicles, 1 x ISIL HMMWV and 2 x tactical ISIL units - one of which was emplacing IEDs.",
 		},
 		"Minimum ISIL Camps": {
 			" Training Facilities": "NA",
@@ -18357,8 +17884,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18404,8 +17930,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18451,8 +17976,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18498,8 +18022,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 	{
 		DATE: "21/11/2014-  24/11/2014",
@@ -18545,8 +18068,7 @@ const rawData = [
 		"Maximum Other": "NA",
 		"Minimum Total Reported Killed": "NA",
 		"Maximum Total Reported Killed": "NA",
-		SOURCE:
-			" http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
+		SOURCE: " http://www.centcom.mil/en/news/articles/nov.-24-military-airstrikes-continue-against-isil-in-syria-and-iraq",
 	},
 ]
 

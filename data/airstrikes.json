@@ -2635,8 +2635,8 @@
         ]
       },
       "properties": {
-        "date": "",
-        "country": "",
+        "date": "22/09/2014 - 23/09/2014",
+        "country": "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
         "minimum_strikes": null,
         "maximum_strikes": "",
         "total_airstrikes": null,
@@ -2667,7 +2667,7 @@
         ]
       },
       "properties": {
-        "date": "22/09/2014 - 23/09/2015",
+        "date": "22/09/2014 - 23/09/2014",
         "country": "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
         "minimum_strikes": 1,
         "maximum_strikes": " ≤10",
@@ -2699,7 +2699,7 @@
         ]
       },
       "properties": {
-        "date": "22/09/2014 - 23/09/2015",
+        "date": "22/09/2014 - 23/09/2014",
         "country": "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
         "minimum_strikes": 1,
         "maximum_strikes": " ≤10",
@@ -2731,7 +2731,7 @@
         ]
       },
       "properties": {
-        "date": "22/09/2014 - 23/09/2015",
+        "date": "22/09/2014 - 23/09/2014",
         "country": "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
         "minimum_strikes": 1,
         "maximum_strikes": " ≤10",
@@ -2763,7 +2763,7 @@
         ]
       },
       "properties": {
-        "date": "22/09/2014 - 23/09/2015",
+        "date": "22/09/2014 - 23/09/2014",
         "country": "Coalition: US, Bahrain, Jordan, Saudi Arabia,Qatar & UAE",
         "minimum_strikes": 1,
         "maximum_strikes": " ≤10",
@@ -4983,7 +4983,7 @@
           "WEAPON": "Mix of  coalition fighter and remotely piloted aircraft "
         },
         "location": "Tabqah Airfield, southwest of Ar Raqqah",
-        "latlng": "Tabqah Airfield: 35.764722°N, 38.566944°E",
+        "latlng": "Tabqah Airfield: 35.764722° N, 38.566944°E",
         "youtube_clip": "NA",
         "target": "Tabqah Airfield",
         "purpose": "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
@@ -5367,7 +5367,7 @@
           "WEAPON": "Mix of US fighter and remotely piloted aircraft"
         },
         "location": "Near Taqba Airfield ",
-        "latlng": "Taqba Airfield: 35.4553°N, 38.341°E",
+        "latlng": "Taqba Airfield: 35.4553° N, 38.341°E",
         "youtube_clip": "NA",
         "target": "ISIL strongholds near Taqba Airfield",
         "purpose": "The strikes were conducted as part of the President's comprehensive strategy to degrade and ultimately destroy ISIL. The destruction and degradation of ISIL targets in Syria and Iraq further limits the terrorist group's ability to lead, control, project power and conduct operations",
@@ -7238,8 +7238,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0,
-          0
+          40.720833,
+          36.055556
         ]
       },
       "properties": {
@@ -7255,7 +7255,7 @@
           "WEAPON": "US fighter aircraft "
         },
         "location": "Near Shadadi",
-        "latlng": "Shadadi: 36.055556°N   40.720833°E",
+        "latlng": "Shadadi: 36.055556° N, 40.720833°E",
         "youtube_clip": "NA",
         "target": "ISIL oil collection equipment near Shadadi",
         "purpose": "This strike was intended to destroy a portion of ISIL's ability to operate oil tanker trucks at oil collection points. ",
@@ -7383,7 +7383,7 @@
           "WEAPON": "Mix of US fighter and bomber aircraft "
         },
         "location": "Southwest of Ain Aissa ",
-        "latlng": "Ain Aissa: 36.616667°N,  38.716667°E",
+        "latlng": "Ain Aissa: 36.616667° N,  38.716667°E",
         "youtube_clip": "NA",
         "target": "An ISIL military camp",
         "purpose": "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
@@ -7479,7 +7479,7 @@
           "WEAPON": "Mix of US fighter and bomber aircraft "
         },
         "location": "Northeast of Khusham ",
-        "latlng": "Khusham: 35.266667°N, 40.266667 °E",
+        "latlng": "Khusham: 35.266667° N, 40.266667 °E",
         "youtube_clip": "NA",
         "target": " An ISIL crude oil collection point",
         "purpose": "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
@@ -7511,7 +7511,7 @@
           "WEAPON": "Mix of US fighter and bomber aircraft "
         },
         "location": "East of Sharra ",
-        "latlng": "Sharra: 34.922778°N, 40.561667°E",
+        "latlng": "Sharra: 34.922778° N, 40.561667°E",
         "youtube_clip": "NA",
         "target": "An ISIL modular oil refinery",
         "purpose": "These airstrikes were designed to interdict ISIL financing by degrading and destroying their oil producing, collecting, storage and transportation infrastructure.  ",
@@ -8503,7 +8503,7 @@
           "WEAPON": "Mix of US & partner nation bomber, fighter and remotely piloted aircraft"
         },
         "location": "Near Zumar ",
-        "latlng": "Zumar: 36.656667°N, 42.604722°E ",
+        "latlng": "Zumar: 36.656667° N, 42.604722°E ",
         "youtube_clip": "NA",
         "target": "ISIL strongholds in Zumar",
         "purpose": "The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
@@ -8695,7 +8695,7 @@
           "WEAPON": "Mix of US & partner nations bomber, fighter and remotely piloted aircraft"
         },
         "location": "Near Qurayat al Hajjaj ",
-        "latlng": "Al Kuray`at, Iraq: 33.3905556°N, 044.3419444°E",
+        "latlng": "Al Kuray`at, Iraq: 33.3905556° N, 044.3419444°E",
         "youtube_clip": "NA",
         "target": "ISIL strongholds near Qurayat al Hajjaj ",
         "purpose": "The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
@@ -8727,7 +8727,7 @@
           "WEAPON": "Mix of US & partner nations bomber, fighter and remotely piloted aircraft"
         },
         "location": "East of Hayy Al Arabi ",
-        "latlng": "Hayy Al Arabi:33.9910700 °N, 44.9614800°E  ",
+        "latlng": "Hayy Al Arabi:33.9910700 ° N, 44.9614800°E  ",
         "youtube_clip": "NA",
         "target": "ISIL strongholds east of Hayy Al Arabi ",
         "purpose": "The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
@@ -8759,7 +8759,7 @@
           "WEAPON": "Mix of US & partner nations bomber, fighter and remotely piloted aircraft"
         },
         "location": "Near Aynzalah ",
-        "latlng": "Aynzalah: 36.716667°N,42.600°E",
+        "latlng": "Aynzalah: 36.716667° N,42.600°E",
         "youtube_clip": "NA",
         "target": "ISIL strongholds near Aynzalah ",
         "purpose": "The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
@@ -9079,7 +9079,7 @@
           "WEAPON": "Mix of US & partner nation fighters, attack and remotely piloted aircraft "
         },
         "location": "East of Zumar ",
-        "latlng": "Zumar: 36.656667°N, 42.604722°E ",
+        "latlng": "Zumar: 36.656667° N, 42.604722°E ",
         "youtube_clip": "NA",
         "target": "ISIL strongholds in Zumar",
         "purpose": "The U.S. strikes were conducted as part of Operation Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community.",
@@ -9675,7 +9675,7 @@
         ]
       },
       "properties": {
-        "date": "30/10/2014-31/10/2015",
+        "date": "30/10/2014-31/10/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 1,
         "maximum_strikes": "1",
@@ -9771,7 +9771,7 @@
         ]
       },
       "properties": {
-        "date": "31/10/2014-01/11/2015",
+        "date": "31/10/2014-01/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 4,
         "maximum_strikes": "4",
@@ -10571,7 +10571,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 13,
         "maximum_strikes": "13",
@@ -10603,7 +10603,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 8,
         "maximum_strikes": "8",
@@ -10635,7 +10635,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 2,
         "maximum_strikes": "2",
@@ -10667,7 +10667,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 7,
         "maximum_strikes": "7",
@@ -10699,7 +10699,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 3,
         "maximum_strikes": "3",
@@ -10731,7 +10731,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 3,
         "maximum_strikes": "3",
@@ -10763,7 +10763,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 2,
         "maximum_strikes": "2",
@@ -10795,7 +10795,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 1,
         "maximum_strikes": "1",
@@ -10827,7 +10827,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 1,
         "maximum_strikes": "1",
@@ -10859,7 +10859,7 @@
         ]
       },
       "properties": {
-        "date": "07-11/2014 - 10/11/2014",
+        "date": "07/11/2014 - 10/11/2014",
         "country": "US & Undetermined Partner Nations",
         "minimum_strikes": 1,
         "maximum_strikes": "1",
@@ -12006,38 +12006,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0,
-          0
-        ]
-      },
-      "properties": {
-        "date": "",
-        "country": "",
-        "minimum_strikes": null,
-        "maximum_strikes": "",
-        "total_airstrikes": null,
-        "time_ast_iraq": {
-          " SYRIA": ""
-        },
-        "platform": {
-          "WEAPON": ""
-        },
-        "location": "",
-        "latlng": "",
-        "youtube_clip": "https://www.youtube.com/watch?v=SzkI54u_xg8&index=3&list=UUNEEHeS9Y2yFVLbWGeHhbYA",
-        "target": "",
-        "purpose": "",
-        "effect": {
-          "OUTCOME": ""
-        },
-        "source": "https://www.youtube.com/watch?v=SzkI54u_xg8&index=3&list=UUNEEHeS9Y2yFVLbWGeHhbYA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           44.3167,
           35.4667
         ]
@@ -12247,7 +12215,7 @@
           "WEAPON": "Mix of US and partner nation fighter, attack, bomber and remotely-piloted aircraft "
         },
         "location": "Near al Asad",
-        "latlng": "Al Asad:33.785608°N, 42.4412°E",
+        "latlng": "Al Asad:33.785608° N, 42.4412°E",
         "youtube_clip": "NA",
         "target": "ISIL strongholds near al Asad",
         "purpose": "The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",
@@ -12471,7 +12439,7 @@
           "WEAPON": "Mix of US and partner nation fighter, attack, bomber and remotely-piloted aircraft"
         },
         "location": "Near al-Asad",
-        "latlng": "Al Asad:33.785608°N, 42.4412°E",
+        "latlng": "Al Asad:33.785608° N, 42.4412°E",
         "youtube_clip": "NA",
         "target": "ISIL strongholds near al-Asad",
         "purpose": "The strikes were conducted as part of Inherent Resolve, the operation to eliminate the terrorist group ISIL and the threat they pose to Iraq, the region and the wider international community. ",

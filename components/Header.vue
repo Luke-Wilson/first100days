@@ -4,7 +4,8 @@
 			<b-col>
 				<header>
 					<h1>Strike from the Air</h1>
-					<div class="text-muted">First 100 days in the air campaign against ISIL</div>
+					<div class="text-muted inline">First 100 days in the air campaign against ISIL</div>
+					<InfoModal />
 				</header>
 			</b-col>
 		</b-row>
