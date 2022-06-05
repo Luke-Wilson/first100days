@@ -25,7 +25,11 @@ export default {
 
 	build: {
 		babel: {
-			plugins: [["@babel/plugin-proposal-private-methods", { loose: true }]],
+			plugins: [
+				["@babel/plugin-proposal-class-properties", { loose: true }],
+				["@babel/plugin-proposal-private-methods", { loose: true }],
+				["@babel/plugin-proposal-private-property-in-object", { loose: true }],
+			],
 		},
 	},
 
@@ -38,17 +42,17 @@ export default {
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["bootstrap-vue/nuxt"],
+	modules: ["bootstrap-vue/nuxt", "modules/elasticApm"],
 	bootstrapVue: {
 		config: {
 			componentPlugins: ["IconsPlugin"],
 		},
 	},
 
-	// Build Configuration: https://go.nuxtjs.dev/config-build
-	build: {},
-
 	env: {
 		mapboxToken: process.env.MAPBOX_TOKEN,
+		elasticApmServiceName: process.env.ELASTIC_APM_SERVICE_NAME,
+		elasticApmSecretToken: process.env.ELASTIC_APM_SECRET_TOKEN,
+		elasticApmServerUrl: process.env.ELASTIC_APM_SERVER_URL,
 	},
 }
