@@ -5,8 +5,6 @@
 				<header>
 					<h1>Strike from the Air</h1>
 					<div class="text-muted inline">First 100 days in the air campaign against ISIL</div>
-					<p>servername</p>
-					<p>{{ servername }}</p>
 					<InfoModal />
 				</header>
 			</b-col>
@@ -17,12 +15,6 @@
 <script>
 export default {
 	name: "Header",
-	data: () => ({
-		servername: "",
-	}),
-	mounted() {
-		this.servername = process.env.elasticApmServiceName
-	},
 }
 </script>
 

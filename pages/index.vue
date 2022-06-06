@@ -8,9 +8,6 @@
 <script lang="ts">
 import Vue from "vue"
 
-console.log("process.env.elasticApmServerUrl")
-console.log(process.env.elasticApmServerUrl)
-
 export default Vue.extend({
 	data: () => ({
 		title: "Strike from the Air: First 100 days in the air campaign against ISIL",
